@@ -1,0 +1,80 @@
+# ==============================================================================
+# .gitignore para Ensamble De-Novo de Genoma Bacteriano
+# ==============================================================================
+
+# Entornos y logs de sistema
+.antigravitycli/
+.ipynb_checkpoints/
+*.log
+*.err
+reporte_hackmd.txt
+reporte_hackmd.md
+/ProyectoEnsamble_PlatasAddiel_VillarruelAndrea.html
+
+# Archivos de lecturas masivas y secuencias crudas/filtradas
+*.fq
+*.fastq
+*.fq.gz
+*.fastq.gz
+data/
+fastqs/*.zip
+
+# Archivos temporales de recortado
+trimm/
+
+# Archivos de alineamiento e índices
+*.sam
+*.bam
+*.bai
+*.bt2
+*.bt2l
+
+# Archivos intermedios de ensambladores
+# Velvet
+ensamble/VelvetH/
+ensamble/VelvetG/
+ensamble/VelvetOptimiser/
+Sequences
+Roadmaps
+Graph*
+LastGraph
+PreGraph
+
+# SPAdes
+ensamble/Spades/
+*.fastg
+*.gfa
+
+# Canu (almacenes de datos masivos)
+ensamble/Canu/
+*.seqStore
+*.corStore
+*.ovlStore
+*.ctgStore
+*.fasta.gz
+
+# Flye & Unicycler intermedios
+ensamble/Flye/
+ensamble/Unicycler/
+ensamble/pilon/
+
+# Glimmer intermedios pesados
+glimmer/assembly_flye_pilon.fasta
+glimmer/*.train
+glimmer/*.icm
+
+# BLASTn de gran tamaño (>100MB bloqueado por GitHub)
+prokka/blastn/blast_results.txt
+*.blast_results.txt
+
+# Archivos pesados de Prokka (>10MB)
+prokka/Cupriavidus10_prokka/CP10.gbk
+prokka/Cupriavidus10_prokka/CP10.sqn
+prokka/Cupriavidus10_prokka/CP10.fsa
+
+# Resultados brutos locales
+ensamble/quast_results/
+ensamble/MUMMER/
+prokka/
+glimmer/
+fastqs/

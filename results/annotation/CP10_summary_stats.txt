@@ -1,0 +1,7 @@
+organism: Cupriavidus gilardii WM02 
+contigs: 3
+bases: 5671434
+CDS: 5008
+rRNA: 12
+tRNA: 65
+tmRNA: 1
