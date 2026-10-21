@@ -1,14 +1,7 @@
 # *De Novo* Bacterial Genome Assembly, Benchmarking & Functional Annotation
 ### Reconstrucción Genómica de *Cupriavidus gilardii* WM02 mediante Enfoques Híbridos (Illumina + PacBio)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Bioinformatics](https://img.shields.io/badge/Bioinformatics-Genomics-blue.svg)](#)
-[![Sequencing](https://img.shields.io/badge/Data-Illumina%20%2B%20PacBio-brightgreen.svg)](#)
-[![Status](https://img.shields.io/badge/Pipeline-Reproducible-success.svg)](#)
-
----
-
-## 📋 Resumen del Proyecto
+##  Resumen del Proyecto
 
 Este repositorio contiene el flujo de trabajo bioinformático completo para el ensamblaje *de novo*, control de calidad, benchmarking comparativo, pulido de consenso y anotación funcional del genoma de una bacteria aislada a partir de lecturas cortas (**Illumina Paired-End**) y lecturas largas (**PacBio**).
 
@@ -23,7 +16,7 @@ La mejor reconstrucción genómica se obtuvo mediante **Flye corregido con Pilon
 
 ---
 
-## 👥 Autores y Créditos
+##  Autores y Créditos
 
 Proyecto desarrollado en colaboración para la materia de Genómica / Ciencias Genómicas (Servidor de Cómputo *Chaac*):
 
@@ -32,7 +25,7 @@ Proyecto desarrollado en colaboración para la materia de Genómica / Ciencias G
 
 ---
 
-## 🧬 Flujo de Trabajo (Workflow)
+## Flujo de Trabajo (Workflow)
 
 ```mermaid
 flowchart TD
