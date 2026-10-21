@@ -1,8 +1,7 @@
 # De Novo Bacterial Genome Assembly and Annotation
 
-**Collaborative undergraduate coursework project
-
 **Authors:** Andrea Villarruel García and Addiel Antonio Renteral Platas
+
 **Context:** Collaborative final project for an undergraduate Assembly course (2025)
 
 ## Overview
